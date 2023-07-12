@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Source+Code+Pro&display=swap');
+
+h1, h2, h3, h4, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Arial;
+    color: #333;
+    font-family: 'Fredoka', sans-serif;
+}
+
+header {
+    padding: 25px;
+    background-color: rgb(10, 41, 99);
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    display: inline-block;
+}
+
+main form {
+    max-width: 400px;
+    width: max-content;
+    margin: auto;
+}
+
+
+main article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, p {
+    margin-bottom: 1em;
+}
+
+#title {
+    text-align: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: .5em;
+}
+
+input, textarea, #destination_details_form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    border: 1.8px solid #666;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    border-radius: 5px;
+    background-color: rgb(10, 41, 99);
+    color: white;
+}
+
+#destinations_container button {
+    width: 100px;
+    height: 40px;
+}
+
+#destinations_container {
+    width: 100%;
+}
+
+.card {
+    padding: 20px;
+    background-color: #ddd9d9;
+    margin-bottom: 10px;
+    width: min-content;
+    display: inline-block;
+    margin-right: 20px
+}
+
+@media screen and (min-width: 830px) {
+    main {
+            max-width: 800px;
+            padding: 20px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        main form {
+            width: 40%;
+        }
+    
+        main article {
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+        }
+}
